@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import './testChart.scss';
+import './scoreboard.scss';
 
 const propTypes = {};
 
 const defaultProps = {};
 
-class TestChart extends Component {
+class Scoreboard extends Component {
   constructor(props) {
     super(props);
 
@@ -26,7 +26,7 @@ class TestChart extends Component {
   }
 }
 
-TestChart.propTypes = propTypes;
-TestChart.defaultProps = defaultProps;
+Scoreboard.propTypes = propTypes;
+Scoreboard.defaultProps = defaultProps;
 
-export default TestChart;
+export default Scoreboard;
