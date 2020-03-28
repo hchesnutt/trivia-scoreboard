@@ -1,0 +1,69 @@
+@import './assets/palette.scss';
+
+
+body {
+  background-color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+
+  .nav-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    .title-text {
+      font-size: 48px;
+      color: $white;
+      padding: 15px;
+    }
+    
+    .actions-container {
+      margin-left: 60px;
+      width: 30%;
+      display: flex;
+      justify-content: space-around;
+
+      .action-option {
+        color: $white;
+        font-size: 20px;
+        text-decoration: underline;
+
+      }
+      .action-option:hover {
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .content-container {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    span {
+      color: white;
+    }
+  }
+
+  .img-container {
+    width: 100%;
+    height: 90%;
+    position: relative;
+
+    .armadillo-image {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 50%;
+    }
+  }
+}
